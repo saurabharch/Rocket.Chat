@@ -1,13 +1,13 @@
 /* General */
-@import 'imports/general/reset.css';
+/*@import 'imports/general/reset.css';
 @import 'imports/general/variables.css';
 @import 'imports/general/base_old.css';
 @import 'imports/general/base.css';
 @import 'imports/general/animations.css';
 @import 'imports/general/apps.css';
-
+*/
 /* Forms */
-@import 'imports/general/forms.css';
+/*@import 'imports/general/forms.css';
 @import 'imports/forms/button.css';
 @import 'imports/forms/input.css';
 @import 'imports/forms/select.css';
@@ -16,20 +16,20 @@
 @import 'imports/forms/switch.css';
 @import 'imports/forms/tags.css';
 @import 'imports/forms/checkbox.css';
-
+*/
 /* Typography */
-@import 'imports/general/typography.css';
-
+/*@import 'imports/general/typography.css';
+*/
 /* Sidebar */
-@import 'imports/components/sidebar/sidebar.css';
+/*@import 'imports/components/sidebar/sidebar.css';
 @import 'imports/components/sidebar/sidebar-header.css';
 @import 'imports/components/sidebar/sidebar-item.css';
 @import 'imports/components/sidebar/sidebar-flex.css';
 @import 'imports/components/sidebar/toolbar.css';
 @import 'imports/components/sidebar/rooms-list.css';
-
+*/
 /* Main */
-@import 'imports/components/setup-wizard.css';
+/*@import 'imports/components/setup-wizard.css';
 @import 'imports/components/flex-nav.css';
 @import 'imports/components/header.css';
 @import 'imports/components/memberlist.css';
@@ -50,14 +50,15 @@
 @import 'imports/components/table.css';
 @import 'imports/components/file-list.css';
 @import 'imports/components/tabs.css';
-
+*/
 /* Modal */
-@import 'imports/components/modal/full-modal.css';
+/*@import 'imports/components/modal/full-modal.css';
 @import 'imports/components/modal/create-channel.css';
 @import 'imports/components/modal/directory.css';
-
+*/
 /* User Info */
-@import 'imports/components/userInfo.css';
-
+/*@import 'imports/components/userInfo.css';
+*/
 /* RTL */
-@import 'imports/general/rtl.css';
+/*@import 'imports/general/rtl.css';
+*/

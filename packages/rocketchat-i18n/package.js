@@ -17,14 +17,14 @@ Package.onUse(function(api) {
 		}
 	});
 
-	const livechatDir = `${ workingDir }/packages/rocketchat-livechat/.app/i18n`;
-	fs.readdirSync(livechatDir).forEach(function(filename) {
-		if (filename.indexOf('.json') > -1 && fs.statSync(`${ livechatDir }/${ filename }`).size > 16) {
-			fs.writeFileSync(`${ i18nDir }/livechat.${ filename }`, fs.readFileSync(`${ livechatDir }/${ filename }`));
+	// const livechatDir = `${ workingDir }/packages/rocketchat-livechat/.app/i18n`;
+	// fs.readdirSync(livechatDir).forEach(function(filename) {
+	// 	if (filename.indexOf('.json') > -1 && fs.statSync(`${ livechatDir }/${ filename }`).size > 16) {
+	// 		fs.writeFileSync(`${ i18nDir }/livechat.${ filename }`, fs.readFileSync(`${ livechatDir }/${ filename }`));
 
-			api.addFiles(`i18n/livechat.${ filename }`);
-		}
-	});
+	// 		api.addFiles(`i18n/livechat.${ filename }`);
+	// 	}
+	// });
 
 	api.use('tap:i18n@1.8.2');
 });
