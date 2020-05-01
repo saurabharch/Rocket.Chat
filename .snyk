@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - archiver > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - twilio > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > async > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > google-gax > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > google-gax > grpc > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > async > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - '@google-cloud/vision > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2020-05-01T08:56:20.536Z'
+    - turndown > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:56:20.536Z'
